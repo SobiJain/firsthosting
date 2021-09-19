@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
         <h1>Sync your custom</h1>
-        <button id="myButton" class="float-left submit-button">Enable Workflow</button>
+        <button id="myButton" >Enable Workflow</button>
     </div>
   );
 }
