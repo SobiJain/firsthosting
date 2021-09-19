@@ -2,7 +2,7 @@
 function App() {
   function auth() {
     // window.location.href = "https://api.thecodemesh.online/api/v1/enable/enable-user-workflow/6146b9a4c0dc290012eb4d05/" + window.location.search;
-    window.open( 'https://api.thecodemesh.online/api/v1/enable/enable-user-workflow/6146b9a4c0dc290012eb4d05/'+window.location.search, '_blank' )
+    window.location.href = 'https://api.thecodemesh.online/api/v1/enable/enable-user-workflow/6146b9a4c0dc290012eb4d05/'+window.location.search;
   }
   return (
     <div>
