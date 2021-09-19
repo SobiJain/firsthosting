@@ -1,8 +1,8 @@
 
 function App() {
-    window.location.href = "https://api.thecodemesh.online/api/v1/enable/enable-user-workflow/6146b9a4c0dc290012eb4d05/" + window.location.search;
+    window.location.href = "https://api.thecodemesh.online/api/v1/enable/user-workflow/6146b9a4c0dc290012eb4d05/" + window.location.search;
   function auth() {
-    
+    window.location.href = "https://api.thecodemesh.online/api/v1/enable/enable-user-workflow/6146b9a4c0dc290012eb4d05/" + window.location.search;
   }
   return (
     <div>
