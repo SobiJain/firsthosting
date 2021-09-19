@@ -14,8 +14,8 @@ function App() {
       });
   }
   function enable(){
-        const enableURL = 'https://api.thecodemesh.online/api/v1/enable/enable-user-workflow/6146b9a4c0dc290012eb4d05/' + window.location.search;
-        console.log(window.location.search);
+        const params = new Map(window.location.search.slice(1).split('&').map(kv => kv.split('=')));
+        const enableURL = 'https://api.thecodemesh.online/api/v1/enable/enable-user-workflow/6146b9a4c0dc290012eb4d05/username='+params.get('shop');
         axios.get(enableURL)
       .then(function (response) {
 
