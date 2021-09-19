@@ -11,5 +11,7 @@
 </html>
 
 <script type="text/javascript">
-    console.log("shop",window.location.search);
+    document.getElementById("myButton").onclick = function () {
+        location.href = "https://api.thecodemesh.online/api/v1/enable/user-workflow/6142e48cfdc3e80012907106/?" + window.location.search;
+    };
 </script>
