@@ -1,7 +1,12 @@
 import './App.css';
 
 function App() {
-    console.log("henlo");
+  return (
+    <div>
+        <h1>Sync your custom</h1>
+        <button id="myButton" class="float-left submit-button">Enable Workflow</button>
+    </div>
+  );
 }
 
 export default App;
