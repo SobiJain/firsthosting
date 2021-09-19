@@ -40,10 +40,9 @@ function App() {
         console.log("error in sync : ", error);
       });
   }
+  auth();
   return (
     <div>
-      <button className="float-left submit-button" onClick={auth}>auth</button>
-      <br></br>
       <button className="float-left submit-button" onClick={enable}>enable/</button>
       <br></br>
       <button className="float-left submit-button" onClick={runSync}>runSync</button>
