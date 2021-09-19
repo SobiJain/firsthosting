@@ -14,7 +14,8 @@ function App() {
       });
   }
   function enable(){
-        const enableURL = 'https://api.thecodemesh.online/api/v1/enable/enable-user-workflow/6146b9a4c0dc290012eb4d05/'+window.location.search+'username=dev-ex-store.myshopify.com';
+        const enableURL = 'https://api.thecodemesh.online/api/v1/enable/enable-user-workflow/6146b9a4c0dc290012eb4d05/' + window.location.search;
+        console.log(window.location.search);
         axios.get(enableURL)
       .then(function (response) {
 
