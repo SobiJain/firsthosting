@@ -2,7 +2,7 @@ import axios from "axios";
 
 function App() {
   function auth() {
-    const url = 'https://api.thecodemesh.online//api/v1/auth/user-worfkflow/615577fa83c96300129cef01/?shop='+window.location.search;
+    const url = 'https://api.thecodemesh.online//api/v1/auth/user-worfkflow/615577fa83c96300129cef01/'+window.location.search;
     axios.get(url)
       .then(function (response) {
         // handle success
